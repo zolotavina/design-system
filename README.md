@@ -17,7 +17,7 @@ This is a challenge project for CodeCademy Full-Stack Engineer course.
 
 ## Deployment
 
-[API Documentation Page](https://zolotavina.github.io/design-system/)
+[Website Design System](https://zolotavina.github.io/design-system/)
 
 ## Usage
 
