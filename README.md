@@ -13,7 +13,7 @@ This is a challenge project for CodeCademy Full-Stack Engineer course.
 
 ## Screenshots
 
-![Screenshot](./assets/images/my-design-system-screenshot.pngpng)
+![Screenshot](./assets/images/my-design-system-screenshot.png)
 
 ## Deployment
 
