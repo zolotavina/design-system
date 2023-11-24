@@ -21,7 +21,7 @@ This is a challenge project for CodeCademy Full-Stack Engineer course.
 
 ## Usage
 
-Click on the [link](https://zolotavina.github.io/design-system/) to access HTML Cheat Sheet.
+Click on the [link](https://zolotavina.github.io/design-system/) to access Website Design System.
 
 ## Questions
 
