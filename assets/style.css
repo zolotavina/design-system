@@ -1,0 +1,150 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #393939;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    margin-bottom: 20px;
+    padding: 30px;
+    border-bottom: 3px solid #9B9A9A;
+}
+
+.container:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    font-style: italic;
+    color: #393939;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* COLOR SECTION*/
+
+.color-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+}
+
+.color-panel {
+    padding: 24px;
+}
+
+.color-panel p {
+    text-align: center;
+}
+
+.palette-color-1 {
+    background-color: #ccc1ae;
+}
+
+.palette-color-2 {
+    background-color: #dfdbd8;
+}
+
+.palette-color-3 {
+    background-color: #c2cfbf;
+}
+
+.palette-color-4 {
+    background-color: #61755d;
+    color: #fff;
+}
+
+.palette-color-5 {
+    background-color: #393939;
+    color: #fff;
+}
+
+/* TYPOGRAPHY SECTION*/
+
+.font-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+
+}
+
+.font-playfair-display {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.font-name {
+    font-size: 2.2rem;
+    text-decoration: underline;
+    padding-bottom: 6px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* TYPOGRAPHY SECTION*/
+
+.text-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.text-panel {
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#text-heading {
+    font-family: 'Playfair Display', serif;
+    color: #393939;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 6px;
+}
+
+#text-subheading {
+    font-family: 'Playfair Display', serif;
+    color: #393939;
+    font-size: 2.8rem;
+    font-style: italic;
+    padding-bottom: 6px;
+    font-weight: 700;
+}
+
+#text-paragraph {
+    padding-bottom: 6px;
+}
